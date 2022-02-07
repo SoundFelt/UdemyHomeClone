@@ -681,6 +681,7 @@ a {
     background-color: black;
     color: white;
     cursor: pointer;
+    margin-right: auto;
 }
 
 /* Extras end */
@@ -853,6 +854,10 @@ a {
         text-align: center;
         width: 100%;
         margin: 0 0 50px;
+    }
+    .find-out-how-button {
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
