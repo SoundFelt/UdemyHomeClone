@@ -8,10 +8,20 @@ body {
     margin: 0;
 }
 
+.first-half-container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.max-width-container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
  /* Smart nav start */
 
 .smart-nav {
-    width: 100%;
+    max-width: 1920px !important;
     height: 56px;
     background-color: #5624d0;
     margin: 0;
@@ -172,7 +182,7 @@ a {
 /* Banner start */
 
 .banner-content {
-    height: 390px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -182,6 +192,7 @@ a {
 
 .banner-content img {
     width: 100%;
+    text-align: center;
 }
 
 .banner-text {
@@ -1073,6 +1084,12 @@ a {
     }
     .viewing-course-3 {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .featured-topics-container {
+        padding: 25px 30px 25px 105px;
     }
 }
 /* Tablet and mobile changes end */
